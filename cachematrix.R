@@ -1,6 +1,13 @@
 ## R function is able to cache potentially time-consuming computations,
 ## potentially time-consuming computations, and performance tests.
 
+## Create large matrix y making sure that doesn't require BigMemory pacakge, and
+## yet it's useful.
+
+## Warning. Do not run this! It may consume a large percentage of CPU and Disk 
+## resources when reading from disk. 
+
+y = matrix(sample.int(15, 9*1000, TRUE), 10000000,9)
 
 ## Function to create a cache of a large matrix to reduce the need to repeate
 ## complicated computations.
