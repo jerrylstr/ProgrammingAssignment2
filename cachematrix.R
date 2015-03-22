@@ -1,8 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## R function is able to cache potentially time-consuming computations,
+## potentially time-consuming computations, and performance tests.
 
-## Write a short comment describing this function
 
+## Function to create a cache of a large matrix to reduce the need to repeate
+## complicated computations.
 makeCacheMatrix <- function(x = matrix()) {
 
 }
