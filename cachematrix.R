@@ -9,8 +9,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Function to solve the inverse of x which requires several loops. 
+## Calling the chached version of the matrix x instead of calling a copy of the
+## matrix y without caching reduces the processing time in large matrices.
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+        ## This funciont returns a large matrix that is the inverse of 'x'
 }
